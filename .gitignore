@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment and IDE specific files:
+.env
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+__pycache__/
+
+
+*.log
+*.sqlite3
+*.db

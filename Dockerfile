@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y nodejs npm
 
 # Set the working directory in the container
 WORKDIR /app
+ENV SERVER_DOMAIN=http://4.247.151.9
 
 # Copy requirements file and install dependencies
 COPY requirements.txt .
